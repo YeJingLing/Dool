@@ -34,3 +34,18 @@ def func():
     else:
         print(result)
 
+
+import time
+import random
+a = int(input("请输入百以内数字："))
+c= random.range(0,100)
+while Ture:
+    if a > c:
+        print("你赢了结果是 %s" % a)
+        time.sleep(2)
+    elif a < c:
+        print("我赢了结果是%s" % c)
+        time.sleep(1)
+    else:
+        print('一样大结果是%s' % a)
+
